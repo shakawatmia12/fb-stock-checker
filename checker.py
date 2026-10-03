@@ -3,7 +3,7 @@ import requests
 
 # 1. Environment variables & API configuration
 WORKER_KEY = os.environ.get("WORKER_KEY")
-BASE_URL = "https://salvastore.cc/api/stock-health"
+BASE_URL = "https://www.salvastore.cc/api/stock-health"
 
 HEADERS = {
     "Authorization": f"Bearer {WORKER_KEY}",
